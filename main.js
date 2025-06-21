@@ -1,7 +1,7 @@
 import dayjs from 'dayjs';
 
 function tick() {
-  document.getElementById('clock').textContent = dayjs().format('HH:mm:ss');
+  document.getElementById('clock').textContent = dayjs().format('YYYY-MM-DD HH:mm:ss');
 }
 
 function startClock() {
